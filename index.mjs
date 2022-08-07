@@ -52,8 +52,8 @@ await Promise.all([
       console.log(`The digest value: ${digest}`)
     },
     maxamtofenteries: async () => {
-      const maxamt = 4
-      console.log(` Maximum amount of ticket enteries is ${maxamt}`)
+      const maxamt = 50
+      console.log(` Maximum amount of ticketnumber enteries is ${maxamt}`)
       return parseInt(maxamt)
     },
     amountforentry: async () => {
